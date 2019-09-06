@@ -152,10 +152,4 @@ print(classification_report(Y_validation, predictions))
 
 # https://machinelearningmastery.com/make-predictions-scikit-learn/
 
-
-
-
-
-
-
 print('That will be the end!')
