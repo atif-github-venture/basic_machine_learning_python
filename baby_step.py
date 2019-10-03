@@ -67,17 +67,17 @@ print(dataset.groupby('class').size())
 # is computed as mid number on sorted value and 1st and 2nd quartile is computed on either side of 2nd quartile
 # for their mid values on leftover subset
 dataset.plot(kind='box', subplots=True, layout=(2,2), sharex=False, sharey=False)
-# plt.show()
+plt.show()
 
 # histograms
 dataset.hist()
-# plt.show()
+plt.show()
 
 # Multivariate Plots
 # This can be helpful to spot structured relationships between input variables.
 # scatter plot matrix
 scatter_matrix(dataset)
-# plt.show()
+plt.show()
 
 
 # Evaluate Some Algorithms
@@ -137,7 +137,7 @@ fig.suptitle('Algorithm Comparison')
 ax = fig.add_subplot(111)
 plt.boxplot(results)
 ax.set_xticklabels(names)
-# plt.show()
+plt.show()
 
 # Make Predictions
 # The KNN algorithm is very simple and was an accurate model based on our tests. Now we want to get an idea of the accuracy of the model on our validation set.

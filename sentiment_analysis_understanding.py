@@ -1,4 +1,6 @@
 # Sourse -> https://www.datacamp.com/community/tutorials/simplifying-sentiment-analysis-python
+# Another example to learn from -> https://medium.com/@ageitgey/text-classification-is-your-new-secret-weapon-7ca4fad15788
+# https://www.kaggle.com/iwasdata/nltk-to-classify-adjectives-as-positive-negative
 
 
 
@@ -36,15 +38,5 @@ print(nltk.classify.accuracy(classifier, test_set))
 
 # Show the most important features as interpreted by Naive Bayes
 classifier.show_most_informative_features(5)
-
-
-
-
-
-
-
-
-
-
 
 print('That will be the end!')
